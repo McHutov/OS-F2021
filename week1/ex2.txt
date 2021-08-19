@@ -1,0 +1,16 @@
+  863  cd desktop
+  864  mkdir week1
+  865  cd week1
+  866  ls /usr/bin
+  867  ls /usr/bin | grep gcc
+  868  ls /usr/bin | grep gcc > ex1.txt
+  869  history > ex2.txt 
+  870  clear
+  871  cd desktop
+  872  mkdir week1
+  873  cd week1
+  874  ls usr/bin/
+  875  ls usr/bin
+  876  ls /usr/bin
+  877  ls /usr/bin | grep gcc | sort -r
+  878  ls /usr/bin | grep gcc | sort -r > ex1.txt
