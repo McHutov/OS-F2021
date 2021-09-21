@@ -8,9 +8,14 @@ while [ $counter -lt 100 ]
 do
 
 if $(ln ex2.txt ex2.lock);then
+echo "Locked"
+else
+exit
+fi
+
 echo $counter >> ex2.txt
 counter=$(expr $counter + 1)
 rm ex2.lock
-fi
+
 done
 
