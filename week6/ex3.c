@@ -14,12 +14,12 @@ typedef struct process{
 } Process;
 
 void countMetrics(Process processes[], int size, int quantum){
-    int time;
-    int count;
+    int time = 0;
+    int count = 0;
     do{
-        int minA = 2147483647;
+        int minA = 0;
         for (int j = 0; j < size; j++){
-            if (processes[j].AT < minA) {
+            if (processes[j].AT < minA && processes[j].reminder != 0) {
                 minA = processes[j].AT;
             }
         }
