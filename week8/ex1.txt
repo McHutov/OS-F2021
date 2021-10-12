@@ -1,0 +1,22 @@
+Pages free:                               11190.
+Pages active:                            556151.
+Pages inactive:                          537133.
+Pages speculative:                        18957.
+Pages throttled:                              0.
+Pages wired down:                        558056.
+Pages purgeable:                          54005.
+"Translation faults":                 135865354.
+Pages copy-on-write:                    2185653.
+Pages zero filled:                     72800840.
+Pages reactivated:                     31574741.
+Pages purged:                           2188221.
+File-backed pages:                       402897.
+Anonymous pages:                         709344.
+Pages stored in compressor:             1306353.
+Pages occupied by compressor:            415412.
+Decompressions:                        33055846.
+Compressions:                          48824176.
+Pageins:                                7063559.
+Pageouts:                                145208.
+Swapins:                                5851841.
+Swapouts:                               6130685.

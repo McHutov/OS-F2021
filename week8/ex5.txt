@@ -1,0 +1,6 @@
+physical address:: 
+It is when your program knows everything about RAM, and uses real physical address which stores in your device to store variable and etc.
+
+virtual address:
+It is when you have a slice of OS abstraction, and every memory acces wents through this abstraction.
+

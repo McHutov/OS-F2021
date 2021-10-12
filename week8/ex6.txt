@@ -1,0 +1,4 @@
+For addressing any page, we need 13 bits;
+8KB = 8192bit = 2^(13)bit;
+We have 3 availabe bits, since 16-13=3;
+Overall, we have 2^(3)=8 for single-level linear page table;
