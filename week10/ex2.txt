@@ -1,0 +1,2 @@
+/Users/mchutov/Desktop/OS-F2021/week10/file.txt
+/Users/mchutov/Desktop/OS-F2021/week10/_ex2.txt

@@ -1,0 +1,16 @@
+ 1015  ls -i _ex1.txt
+ 1016  ls
+ 1017  ls -i _ex1_1.txt
+ 1018  ls -i _ex1_2.txt
+ 1019  gedit ex1.sh
+ 1020  bash ex1.sh
+ 1021  gedit file.txt
+ 1022  link /Users/mchutov/Desktop/OS-F2021/week10/file.txt _ex2.txt 
+ 1023  find /Users/mchutov/Desktop/OS-F2021/week10 -inum inodenumber
+ 1024  ls -i file.txt
+ 1025  find /Users/mchutov/Desktop/OS-F2021/week10 17529237
+ 1026  find /Users/mchutov/Desktop/OS-F2021/week10 -inum 17529237
+ 1027  find /Users/mchutov/Desktop/OS-F2021/week10 -inum 17529237 >> ex2.txt
+ 1028  find /Users/mchutov/Desktop/OS-F2021/week10 -inum 17529237 -exec rm {} \;
+ 1029  ls -i file.txt
+ 1030  history

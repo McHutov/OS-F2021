@@ -1,0 +1,25 @@
+Permissions at the beginning, without any change: 
+-rwxr-xr-x  1 mchutov  staff    7 Oct 26 10:18 _ex3.txt
+
+
+After removing execute permission for everybody:
+-rw-r--r--  1 mchutov  staff    7 Oct 26 10:18 _ex3.txt
+
+
+Then, granted all permissions to owner and others:
+-rwxr--rwx  1 mchutov  staff     7 Oct 26 10:18 _ex3.txt
+
+Made group permissions equal to user permissions:
+
+-rwxrwxrwx  1 mchutov  staff     7 Oct 26 10:18 _ex3.txt
+
+What does 660 mean for ex3.txt?
+Owner and group can read and edit, the rest are not allowed to take any action
+
+What does 775 mean for ex3.txt?
+Every user has the right to read and execute, owner can edit
+
+What does 777 mean for ex3.txt?
+Each user can read, edit and run for execution
+
+
